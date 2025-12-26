@@ -1,0 +1,7 @@
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:requireDeviceUnlock="false">
+    <aid-group>
+        <!-- AID in hex: 4C41422D454D552E5644 -> ASCII "LAB-EMU.VD" -->
+        <aid-filter android:name="4C41422D454D552E5644"/>
+    </aid-group>
+</host-apdu-service>
